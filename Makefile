@@ -13,5 +13,5 @@ package:
 
 deploy:
 	make package
-	cd terraform && terraform fmt -check && terraform validate -no-color && terraform apply -auto-approve
+	cd terraform && terraform validate -no-color && terraform apply -auto-approve
 	cd terraform && aws s3 sync build/* s3://foss.photography
