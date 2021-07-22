@@ -63,3 +63,15 @@ Browse to [localhost:3000](localhost:3000)
 * Sonarcloud
 * Snyk
 * CodeQL
+
+## Author
+Cameron Cooper
+* [https://github.com/cameronwc](https://github.com/cameronwc)
+
+## Licensing & Copyright
+
+This software and all code is solely owned by Cameron Cooper and is provided without a license.
+
+[No License](https://choosealicense.com/no-permission/)
+
+Copyright © 2021, Cameron Cooper. Released without a license.
