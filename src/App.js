@@ -38,8 +38,9 @@ class App extends React.Component {
   }
 
   search() {
-    this.setState({'pictures': []})
-    this.fetchPictures();
+    this.setState({'pictures': []}, () => {
+      this.fetchPictures();
+    })
   }
 
   updateTerm(term) {
@@ -47,8 +48,9 @@ class App extends React.Component {
   }
 
   hitBottom() {
-    this.setState({'page': this.state.page + 1})
-    this.fetchPictures()
+    this.setState({'page': this.state.page + 1}, () => {
+      this.fetchPictures();
+    })
   }
 
   render() {
