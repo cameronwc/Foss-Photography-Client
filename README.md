@@ -1,4 +1,4 @@
-# Pixel Helper Api
+# FOSS Photography Client
 
 ![build and test](https://github.com/cameronwc/Foss-Photography-Client/actions/workflows/main.yml/badge.svg)
 ![codeql](https://github.com/cameronwc/Foss-Photography-Client/actions/workflows/codeql.yml/badge.svg)
@@ -13,14 +13,6 @@ For this project Docker has to be installed
 Clone the repo
 ```
 git clone git@github.com:cameronwc/Foss-Photography-Client.git
-```
-
-
-Export your api keys.
-```
-PEXEL_API_KEY="your pexel api key"
-UNSPLASH_API_KEY="your unsplash api key"
-PIXABAY_API_KEY="pixababy api key"
 ```
 
 Run Server

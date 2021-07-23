@@ -23,7 +23,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 class Search extends React.Component {
   navigation = {
-    'API': 'https://github.com/cameronwc/Pixel-Helper-Api',
+    'API': 'https://github.com/cameronwc/Foss-Photography-Api',
     'Github': 'https://github.com/cameronwc/foss-photography-client',
     'Me': 'https://cameroncooper.co'
   }
