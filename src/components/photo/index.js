@@ -1,9 +1,10 @@
-import './photo.css'
+import './photo.css';
 
-import React from 'react'
+import React from 'react';
+
+import Modal from '../modal';
 
 import { DownloadIcon, AdjustmentsIcon } from '@heroicons/react/solid'
-import { TransitionGroup } from 'react-transition-group'; // ES6
 
 // const TransitionGroup = React.addons.TransitionGroup;
 
