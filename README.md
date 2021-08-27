@@ -56,6 +56,10 @@ Browse to [localhost:3000](localhost:3000)
 * Snyk
 * CodeQL
 
+## Architecture Diagram
+
+![arch-diagram](docs/img/arch-diagram.png)
+
 ## Author
 Cameron Cooper
 * [https://github.com/cameronwc](https://github.com/cameronwc)
