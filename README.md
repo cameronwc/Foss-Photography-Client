@@ -1,9 +1,8 @@
 # FOSS Photography Client
 
 ![build and test](https://github.com/cameronwc/Foss-Photography-Client/actions/workflows/main.yml/badge.svg)
-![codeql](https://github.com/cameronwc/Foss-Photography-Client/actions/workflows/codeql.yml/badge.svg)
 ![deploy](https://github.com/cameronwc/Foss-Photography-Client/actions/workflows/deploy.yml/badge.svg)
-[![Docker Hub](https://img.shields.io/docker/cloud/build/cameronwc/Foss-Photography-Client?label=Docker&style=flat)](https://hub.docker.com/r/cameronwc/Foss-Photography-Client/builds)
+[![Docker Hub](https://img.shields.io/docker/image-size/cameronwc/foss-photography-client?sort=date)](https://hub.docker.com/r/cameronwc/foss-photography-client/builds)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cameronwc_Foss-Photography-Client&metric=alert_status)](https://sonarcloud.io/dashboard?id=cameronwc_Foss-Photography-Client)
 
 ## Requirements
