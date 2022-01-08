@@ -1,8 +1,12 @@
-.PHONY: build package deploy
+.PHONY: build build-canary package deploy
 
 build:
 	docker build -t foss-photography-client:latest .
 	docker run -it -p 3000:3000 foss-photography-client:latest
+
+build-canary:
+	mkdir -p terraform/build
+	cd canary && zip -r ../terraform/build/canary.zip ./nodejs/*
 
 package:
 	mkdir -p packages/foss-photography-client
@@ -12,6 +16,7 @@ package:
 	cp -r packages/foss-photography-client/* terraform/build/foss-photography-client
 
 deploy:
+	make build-canary
 	make package
-	cd terraform && terraform init && terraform validate -no-color && terraform apply -auto-approve
-	cd terraform && aws s3 sync build/* s3://foss.photography
+	cd terraform && terraform init -upgrade && terraform validate -no-color && terraform apply -auto-approve
+	cd terraform && rm -rf build/canary.zip && aws s3 sync build/* s3://foss.photography
