@@ -1,7 +1,7 @@
 name: Deploy
 on:
   push:
-    branches: [ master ]
+    branches: [ master, add-aws-canary ]
 
 jobs:
   semantic-version:
