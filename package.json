@@ -45,7 +45,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.30.0",
     "eslint-plugin-react": "^7.24.0",
-    "postcss": "^7.0.35",
+    "postcss": "^8.4.31",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   }
 }
